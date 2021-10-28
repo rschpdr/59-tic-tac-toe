@@ -1,0 +1,10 @@
+.tile {
+  height: 96px;
+  font-size: 60px;
+  font-weight: bold;
+  text-align: center;
+}
+
+.tile-row {
+  width: calc(96px * 3);
+}
