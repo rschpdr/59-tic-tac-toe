@@ -1,8 +1,5 @@
 const game = new Game();
 
-const img = new Image();
-img.src = "./assets/images/dino.jpeg";
-
 const currentPlayerElement = document.getElementById("currentPlayer");
 const winnerElement = document.getElementById("winner");
 const playerChoiceElement = document.getElementById("playerChoice");
@@ -10,8 +7,6 @@ const gameBoardElement = document.getElementById("gameBoard");
 const startGameBtnElement = document.getElementById("startGameBtn");
 const player1SelectElement = document.getElementById("player1Select");
 const player2SelectElement = document.getElementById("player2Select");
-
-playerChoiceElement.appendChild(img);
 
 // Impede que os dois jogadores tenham a mesma peça
 
